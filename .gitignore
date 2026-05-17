@@ -1,1 +1,22 @@
-.venv
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+
+# Flask
+instance/
+
+# Database
+*.sqlite
+*.db
+data.sqlite
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
